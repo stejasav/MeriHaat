@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T16:39:52.258509+00:00",
+  "title": "Design System: MeriHaat",
+  "extensions": {
+    "colorMeta": {
+      "vermilion": {
+        "role": "primary",
+        "displayName": "Calendar Vermilion",
+        "canonical": "#e0301e",
+        "oklch": "oklch(59.0% 0.213 30.2)",
+        "tonalRamp": [
+          "#230000",
+          "#4f0000",
+          "#7e0a02",
+          "#b21f10",
+          "#e43b28",
+          "#ff7460",
+          "#ffa593",
+          "#ffd5c5"
+        ]
+      },
+      "vermilion-deep": {
+        "role": "primary",
+        "displayName": "Pressed Vermilion",
+        "canonical": "#b8240f",
+        "oklch": "oklch(50.8% 0.186 31.2)",
+        "tonalRamp": [
+          "#220000",
+          "#4e0000",
+          "#7e0e01",
+          "#b1210d",
+          "#ce5744",
+          "#e68776",
+          "#fbb5a8",
+          "#ffe3db"
+        ]
+      },
+      "leaf": {
+        "role": "secondary",
+        "displayName": "Haat Leaf",
+        "canonical": "#1f4d2b",
+        "oklch": "oklch(37.8% 0.077 149.8)",
+        "tonalRamp": [
+          "#001101",
+          "#062d13",
+          "#1f4d2b",
+          "#466c4d",
+          "#6c8c72",
+          "#94ad98",
+          "#bdcfbf",
+          "#e7f2e9"
+        ]
+      },
+      "leaf-soft": {
+        "role": "secondary",
+        "displayName": "Leaf Wash",
+        "canonical": "#e3ebe2",
+        "oklch": "oklch(93.2% 0.015 142.2)",
+        "tonalRamp": [
+          "#0a0c0a",
+          "#232623",
+          "#40433f",
+          "#5e635e",
+          "#7f847e",
+          "#a1a7a0",
+          "#c4cbc3",
+          "#e9f1e8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Carbon Ink",
+        "canonical": "#17140f",
+        "oklch": "oklch(19.3% 0.011 80.5)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#282520",
+          "#44423d",
+          "#63615d",
+          "#84827e",
+          "#a6a5a2",
+          "#cac9c7",
+          "#efeeed"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4f4a42",
+        "oklch": "oklch(41.1% 0.015 79.7)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28251f",
+          "#46413a",
+          "#656159",
+          "#86827b",
+          "#a8a49f",
+          "#cbc9c5",
+          "#f0eeec"
+        ]
+      },
+      "ink-mute": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#6b655b",
+        "oklch": "oklch(50.9% 0.017 80.6)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#282520",
+          "#46413a",
+          "#666057",
+          "#878279",
+          "#a9a49d",
+          "#ccc9c4",
+          "#f0eeeb"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d6d3ca",
+        "oklch": "oklch(86.7% 0.013 91.5)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262522",
+          "#43423e",
+          "#63615c",
+          "#84827c",
+          "#a7a59e",
+          "#ccc9c0",
+          "#f1eee6"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper Stock",
+        "canonical": "#f6f5f1",
+        "oklch": "oklch(97.0% 0.005 95.1)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252524",
+          "#424240",
+          "#62615f",
+          "#838280",
+          "#a6a5a2",
+          "#cac9c6",
+          "#efeeea"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Deep Stock",
+        "canonical": "#ecebe5",
+        "oklch": "oklch(93.9% 0.008 98.9)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#424240",
+          "#62615e",
+          "#83827f",
+          "#a6a5a1",
+          "#cac9c4",
+          "#f0efe9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "numeral": {
+        "displayName": "Condensed Numeral",
+        "purpose": "Tomorrow's day on the date leaf, overnight timeline hours, the wordmark. font-stretch 62%."
+      },
+      "display": {
+        "displayName": "Section Display",
+        "purpose": "Section headings over a 2px ink rule. font-stretch 80%."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Hero H1 and shelf headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Product names and step titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Supporting copy in ink-soft, 38-52ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase month tabs, pad masthead, column and filter group headings; never above a headline."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Every INR amount, tabular figures."
+      },
+      "devanagari": {
+        "displayName": "Devanagari",
+        "purpose": "Hindi names beside English, quieter colour."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dropdown-lift",
+        "value": "0 18px 40px -12px rgb(23 20 15 / 0.35)",
+        "purpose": "Search suggestion listbox."
+      },
+      {
+        "name": "drawer-edge",
+        "value": "-24px 0 60px -20px rgb(23 20 15 / 0.4)",
+        "purpose": "Open basket drawer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Stamp-in, drawer and menu slides, photo hover zoom, progress fill."
+      },
+      {
+        "name": "ease-out-quart",
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "purpose": "Leaf tear and basket bump."
+      },
+      {
+        "name": "leaf-tear",
+        "value": "1100ms ease-out-quart 700ms delay; rotateX 0 to -96deg from top edge",
+        "purpose": "Today's leaf falls away to reveal tomorrow; removed under reduced motion."
+      },
+      {
+        "name": "stamp-in",
+        "value": "420ms ease-out-expo; scale 1.8 to 1, rotate -18 to -8deg",
+        "purpose": "In-basket stamp on a cell and the drawer confirmation."
+      },
+      {
+        "name": "bump",
+        "value": "380ms ease-out-quart; scale 1 to 1.25 to 1",
+        "purpose": "Basket icon and count when an item is added."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "container",
+        "value": "1440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled main action; turns vermilion on hover.",
+      "html": "<button class=\"ds-btn-primary\">Fill tomorrow’s basket <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-btn-primary{font-family: var(--font-sans);display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 20px;border:0;border-radius:0;background:var(--color-ink);color:var(--color-paper);font-weight:700;font-size:16px;cursor:pointer;transition:background-color .15s}.ds-btn-primary svg{transition:transform .3s}.ds-btn-primary:hover{background:var(--color-vermilion)}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}"
+    },
+    {
+      "name": "Basket Button",
+      "kind": "button",
+      "refersTo": "button-basket",
+      "description": "Header basket: vermilion fill, count badge, running INR total.",
+      "html": "<button class=\"ds-btn-basket\"><span class=\"ds-basket-icon\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m15 11-1 9\"/><path d=\"m19 11-4-7\"/><path d=\"M2 11h20\"/><path d=\"m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4\"/><path d=\"M4.5 15.5h15\"/><path d=\"m5 11 4-7\"/><path d=\"m9 11 1 9\"/></svg><span class=\"ds-basket-count\">4</span></span><span class=\"ds-tab\">₹479</span></button>",
+      "css": ".ds-btn-basket{font-family: var(--font-sans);display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 16px;border:0;border-radius:0;background:var(--color-vermilion);color:var(--color-paper);font-weight:700;font-size:16px;cursor:pointer;transition:background-color .15s}.ds-btn-basket:hover{background:var(--color-vermilion-deep)}.ds-btn-basket:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}.ds-basket-icon{position:relative;display:inline-flex}.ds-basket-count{position:absolute;right:-8px;top:-8px;min-width:20px;padding:0 4px;border-radius:9999px;background:var(--color-paper);color:var(--color-vermilion);font-size:11px;font-weight:800;line-height:20px;text-align:center}.ds-tab{font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Add Button",
+      "kind": "button",
+      "refersTo": "button-add",
+      "description": "Outline add-to-basket inside a product cell; inverts to ink on hover.",
+      "html": "<button class=\"ds-btn-add\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg> Add</button>",
+      "css": ".ds-btn-add{font-family: var(--font-sans);display:inline-flex;align-items:center;gap:4px;height:40px;padding:0 14px;border:2px solid var(--color-ink);border-radius:0;background:var(--color-paper);color:var(--color-ink);font-weight:700;font-size:14px;cursor:pointer;transition:background-color .15s,color .15s}.ds-btn-add:hover{background:var(--color-ink);color:var(--color-paper)}.ds-btn-add:active{background:var(--color-vermilion);border-color:var(--color-vermilion)}.ds-btn-add:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}"
+    },
+    {
+      "name": "Quantity Stepper",
+      "kind": "custom",
+      "refersTo": "stepper",
+      "description": "Solid ink stepper that replaces Add once an item is in the basket.",
+      "html": "<div class=\"ds-stepper\" role=\"group\"><button aria-label=\"One less\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/></svg></button><output>1</output><button aria-label=\"One more\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg></button></div>",
+      "css": ".ds-stepper{font-family: var(--font-sans);display:inline-flex;height:40px;align-items:stretch;border:2px solid var(--color-ink);background:var(--color-ink);color:var(--color-paper)}.ds-stepper button{width:40px;display:grid;place-items:center;border:0;background:transparent;color:inherit;cursor:pointer;transition:background-color .15s}.ds-stepper button:hover{background:var(--color-vermilion)}.ds-stepper button:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}.ds-stepper output{display:grid;place-items:center;min-width:32px;padding:0 4px;font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Pack Size Chips",
+      "kind": "chip",
+      "refersTo": "chip-pack",
+      "description": "Square radio chips for pack size; selected is solid ink.",
+      "html": "<div class=\"ds-packs\" role=\"radiogroup\"><button role=\"radio\" aria-checked=\"false\" class=\"ds-pack\">500 g</button><button role=\"radio\" aria-checked=\"true\" class=\"ds-pack ds-pack-on\">1 kg</button></div>",
+      "css": ".ds-packs{display:flex;gap:4px}.ds-pack{font-family: var(--font-sans);padding:4px 10px;border:1px solid var(--color-rule);border-radius:0;background:transparent;color:var(--color-ink-soft);font-size:12px;font-weight:600;cursor:pointer;transition:border-color .15s,color .15s}.ds-pack:hover{border-color:var(--color-ink);color:var(--color-ink)}.ds-pack-on,.ds-pack-on:hover{border-color:var(--color-ink);background:var(--color-ink);color:var(--color-paper)}.ds-pack:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "2px ink bordered search with attached ink submit; border turns vermilion on focus.",
+      "html": "<form class=\"ds-search\" role=\"search\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" placeholder=\"Search apples, palak, atta, A2 milk…\" aria-label=\"Search the haat\"><button type=\"submit\">Search</button></form>",
+      "css": ".ds-search{font-family: var(--font-sans);display:flex;align-items:center;height:48px;border:2px solid var(--color-ink);background:var(--color-paper);color:var(--color-ink-soft)}.ds-search:focus-within{border-color:var(--color-vermilion)}.ds-search svg{margin-left:14px;flex-shrink:0}.ds-search input{flex:1;height:100%;padding:0 12px;border:0;background:transparent;font:inherit;font-size:15px;color:var(--color-ink);caret-color:var(--color-vermilion);outline:none}.ds-search input::placeholder{color:var(--color-ink-mute)}.ds-search button{height:100%;padding:0 16px;border:0;background:var(--color-ink);color:var(--color-paper);font:inherit;font-size:14px;font-weight:700;cursor:pointer;transition:background-color .15s}.ds-search button:hover{background:var(--color-vermilion)}"
+    },
+    {
+      "name": "Category Nav",
+      "kind": "nav",
+      "refersTo": "nav-categories",
+      "description": "Header category row; active link vermilion with a 3px underbar.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-on\">Today’s haat</a><a href=\"#\">Fruits</a><a href=\"#\">Vegetables</a><a href=\"#\">Dairy &amp; Eggs</a></nav>",
+      "css": ".ds-nav{font-family: var(--font-sans);display:flex;gap:32px;border-top:1px solid var(--color-rule);border-bottom:2px solid var(--color-ink);background:var(--color-paper)}.ds-nav a{position:relative;padding:12px 0;font-size:15px;font-weight:600;color:var(--color-ink);text-decoration:none;transition:color .15s}.ds-nav a:hover{color:var(--color-vermilion)}.ds-nav a:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:2px}.ds-nav-on{color:var(--color-vermilion)!important}.ds-nav-on::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--color-vermilion)}"
+    },
+    {
+      "name": "Product Cell",
+      "kind": "card",
+      "refersTo": "product-cell",
+      "description": "One ruled cell of the haat grid: photo, discount badge, name, Devanagari name, leaf origin, price.",
+      "html": "<article class=\"ds-cell\"><div class=\"ds-cell-photo\"><span class=\"ds-cell-off\">18% off</span><span class=\"ds-stamp\">In<br>basket<br><b>×1</b></span></div><div class=\"ds-cell-body\"><h3>Kinnaur Royal Apple</h3><p class=\"ds-hi\" lang=\"hi\">किन्नौर सेब</p><p class=\"ds-origin\">Kinnaur, Himachal</p><p class=\"ds-price\"><b>₹239</b> <s>₹290</s></p></div></article>",
+      "css": ".ds-cell{font-family: var(--font-sans);width:240px;border:1px solid var(--color-ink);background:var(--color-paper);color:var(--color-ink)}.ds-cell-photo{position:relative;aspect-ratio:16/10;background:var(--color-paper-deep)}.ds-cell-off{position:absolute;left:0;top:0;padding:4px 8px;background:var(--color-vermilion);color:var(--color-paper);font-size:12px;font-weight:700;letter-spacing:.025em}.ds-stamp{position:absolute;right:8px;bottom:8px;display:grid;place-items:center;width:64px;height:64px;border:2px solid var(--color-vermilion);border-radius:9999px;background:rgb(246 245 241/.9);color:var(--color-vermilion);font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;line-height:1.2;text-align:center;transform:rotate(-8deg)}.ds-stamp b{font-size:16px}.ds-cell-body{padding:10px 12px 12px}.ds-cell h3{margin:0;font-size:16px;font-weight:700;font-stretch:80%;line-height:1.25}.ds-hi{margin:4px 0 0;font-family:var(--font-deva);font-size:14px;color:var(--color-ink-soft)}.ds-origin{margin:0;font-size:14px;color:var(--color-leaf)}.ds-price{margin:12px 0 0;line-height:1;font-variant-numeric:tabular-nums}.ds-price b{font-size:20px;font-weight:800}.ds-price s{margin-left:6px;font-size:14px;color:var(--color-ink-mute)}"
+    },
+    {
+      "name": "Season Band",
+      "kind": "custom",
+      "refersTo": "month-tab",
+      "description": "Leaf-green month rail; selected month vermilion, current month underlined.",
+      "html": "<div class=\"ds-season\" role=\"tablist\"><button role=\"tab\">Sep</button><button role=\"tab\" class=\"ds-now\">Oct</button><button role=\"tab\" aria-selected=\"true\" class=\"ds-sel\">Nov</button><button role=\"tab\">Dec</button><p><span lang=\"hi\">मार्गशीर्ष</span> <b>In the haat now:</b> apple, orange, pomegranate</p></div>",
+      "css": ".ds-season{font-family: var(--font-sans);display:flex;align-items:stretch;background:var(--color-leaf);color:var(--color-paper)}.ds-season button{position:relative;padding:16px;border:0;background:transparent;color:rgb(246 245 241/.75);font:inherit;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;transition:background-color .15s,color .15s}.ds-season button:hover{background:rgb(246 245 241/.1);color:var(--color-paper)}.ds-season button:focus-visible{outline:2px solid var(--color-vermilion);outline-offset:-2px}.ds-season .ds-sel,.ds-season .ds-sel:hover{background:var(--color-vermilion);color:var(--color-paper)}.ds-now::after{content:'';position:absolute;left:12px;right:12px;bottom:8px;height:2px;background:var(--color-vermilion)}.ds-season p{display:flex;gap:12px;align-items:center;margin:0;padding:14px 24px;border-left:1px solid rgb(246 245 241/.15);font-size:15px}.ds-season p span{font-family:var(--font-deva);color:rgb(246 245 241/.7)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tear-Off Date Pad",
+    "overview": "MeriHaat is printed, not rendered. Every surface reads as a two-ink household wall calendar on off-white stock: carbon ink for type and rules, vermilion for whatever has been committed to tomorrow, and a single leaf green for season and origin. The delivery date is the loudest object on the page, set as an ultra-condensed black numeral; products sit in a ruled ink grid like the days of a month; real photography is the only full colour.\n\nDensity is that of a working calendar: tight ruled cells, honest per-unit prices in tabular figures, Hindi names set in Tiro Devanagari beside the English. Ornament is replaced by print devices the calendar already owns: binding holes, a pad masthead, a month strip, a rubber stamp. Corners are square everywhere except where the physical object is round (stamp, punch hole, count badge).",
+    "keyCharacteristics": [
+      "Two inks plus leaf green on paper stock; photography carries all other colour.",
+      "Archivo across widths: condensed black numerals, semicondensed headings, normal-width UI.",
+      "Ruled 1-2px ink grid; square corners; no cards floating on shadows.",
+      "Vermilion means committed: tomorrow's date, basket, active month, discount, in-basket stamp.",
+      "Bilingual: Devanagari names accompany English at a quieter weight and colour."
+    ],
+    "rules": [
+      {
+        "name": "The Committed Ink Rule",
+        "body": "Vermilion marks only what the visitor has committed to or must act on before the cut-off: the delivery date, the basket, the selected month, a discount, the stamp. If an element is not one of these, it is ink or leaf.",
+        "section": "colors"
+      },
+      {
+        "name": "The Photo Is The Colour Rule",
+        "body": "No gradients, tints or illustrative colour beyond the ten theme tokens; product and produce photography supplies every other hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy is set by width and weight of one family, not by adding faces: condensed for numbers that must be seen across a room, semicondensed for headings, normal for reading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Every price, count and countdown uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Sheet Rule",
+        "body": "Resting surfaces never cast shadows; only overlays (listbox, drawer, menu sheet with its ink/50 scrim) lift off the page.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep vermilion for committed or time-critical things only (date, basket, active month, discount, stamp).",
+      "**Do** set every price, count and countdown in tabular figures, with MRP struck through in ink-mute beside the price.",
+      "**Do** pair English product and category names with their Devanagari names in Tiro at a quieter colour.",
+      "**Do** separate cells with shared 1px ink rules and head sections with a 2px ink rule.",
+      "**Do** honour reduced motion: the leaf tear is removed and stamp/bump animations stop."
+    ],
+    "donts": [
+      "**Don't** round corners on controls, cells or photos; circles are reserved for stamps, binding holes, counts and timeline dots.",
+      "**Don't** put shadows on resting cards or panels; only floating overlays lift.",
+      "**Don't** introduce colours outside the ten theme tokens; photography is the only full colour.",
+      "**Don't** add a photo-carousel hero or round category chips.",
+      "**Don't** set small tracked uppercase labels above headlines; uppercase labels name tabs, mastheads and column groups only."
+    ]
+  }
+}

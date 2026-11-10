@@ -1,0 +1,171 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #f6f5f1;
+  --color-paper-deep: #ecebe5;
+  --color-ink: #17140f;
+  --color-ink-soft: #4f4a42;
+  --color-ink-mute: #6b655b;
+  --color-rule: #d6d3ca;
+  --color-vermilion: #e0301e;
+  --color-vermilion-deep: #b8240f;
+  --color-leaf: #1f4d2b;
+  --color-leaf-soft: #e3ebe2;
+
+  /* Archivo carries Latin; the Noto faces pick up Devanagari (Hindi, Marathi), Bengali and Tamil
+     glyph by glyph, with matching weight and width axes so condensed display type still works. */
+  --font-sans: 'Archivo Variable', 'Archivo', 'Noto Sans Devanagari Variable', 'Noto Sans Bengali Variable',
+    'Noto Sans Tamil Variable', ui-sans-serif, system-ui, sans-serif;
+  /* The wordmark's serif masthead line, in whichever script the tagline is set. */
+  --font-accent: 'Tiro Devanagari Hindi', 'Tiro Bangla', 'Tiro Tamil', serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-feature-settings: 'tnum' 0;
+  }
+  ::selection {
+    background: var(--color-vermilion);
+    color: var(--color-paper);
+  }
+  input,
+  textarea,
+  select {
+    caret-color: var(--color-vermilion);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-vermilion);
+    outline-offset: 2px;
+  }
+  a {
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+  }
+  html {
+    scrollbar-color: var(--color-ink-soft) var(--color-paper-deep);
+  }
+}
+
+/* Indic scripts carry matras and conjuncts above and below the line: the Latin display leading
+   (0.98–1.05) clips them, and negative tracking breaks shaped clusters. Loosen both for every
+   non-English language without touching the English layout. */
+:root:not(:lang(en)) :is(h1, h2, h3, blockquote, .font-semicondensed) {
+  line-height: 1.3 !important;
+  letter-spacing: 0 !important;
+}
+:root:not(:lang(en)) .uppercase {
+  letter-spacing: 0.02em;
+}
+/* Long Tamil and Bengali compounds: allow a break rather than overflowing a narrow cell. */
+:root:not(:lang(en)) body {
+  overflow-wrap: break-word;
+}
+
+@utility font-condensed {
+  font-stretch: 62%;
+}
+@utility font-semicondensed {
+  font-stretch: 80%;
+}
+@utility font-wide {
+  font-stretch: 112%;
+}
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Signature: the tear-off date leaf falls away to reveal tomorrow */
+@keyframes leaf-tear {
+  0% {
+    transform: rotateX(0deg) translateY(0);
+    opacity: 1;
+  }
+  35% {
+    transform: rotateX(-18deg) translateY(4px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(-96deg) translateY(60px);
+    opacity: 0;
+  }
+}
+.leaf-tear {
+  transform-origin: top center;
+  animation: leaf-tear 1100ms var(--ease-out-quart) 700ms both;
+  backface-visibility: hidden;
+}
+
+@keyframes stamp-in {
+  0% {
+    transform: scale(1.8) rotate(-18deg);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(-8deg);
+    opacity: 1;
+  }
+}
+.stamp-in {
+  animation: stamp-in 420ms var(--ease-out-expo) both;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.bump {
+  animation: bump 380ms var(--ease-out-quart);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .leaf-tear {
+    display: none;
+  }
+  .stamp-in,
+  .bump {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

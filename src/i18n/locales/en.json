@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "MeriHaat · Your haat, at your door by 7 AM",
+    "description": "MeriHaat: hand-picked seasonal fruit, vegetables, dairy and daily essentials. Order by 11 PM, at your door by 7 AM across Delhi NCR."
+  },
+  "common": {
+    "skip": "Skip to content",
+    "language": "Language",
+    "changeLanguage": "Change language. Current: {{name}}"
+  },
+  "brand": {
+    "home": "MeriHaat home",
+    "tagline": "Fresh, every morning"
+  },
+  "announcement": {
+    "deliveringTo": "Delivering to",
+    "deliveryArea": "Delivery area",
+    "cutoff": "Order by <b>11 PM</b> → at your door by <b>7 AM, {{day}}</b>",
+    "cutoffShort": "By <b>7 AM</b> tomorrow"
+  },
+  "cities": {
+    "gurugram": "Gurugram",
+    "south-delhi": "South Delhi",
+    "noida": "Noida",
+    "west-delhi": "West Delhi",
+    "faridabad": "Faridabad",
+    "ghaziabad": "Ghaziabad"
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "categories": "Categories",
+    "todaysHaat": "Today’s haat",
+    "shopEverything": "Shop everything",
+    "menuFooter": "Order by 11 PM, at your door by 7 AM.",
+    "basket": "Basket",
+    "openBasket_one": "Open basket, {{count}} item, {{amount}}",
+    "openBasket_other": "Open basket, {{count}} items, {{amount}}"
+  },
+  "search": {
+    "label": "Search the haat",
+    "placeholder": "Search apples, palak, atta, A2 milk…",
+    "submit": "Search"
+  },
+  "hero": {
+    "titleTomorrow": "Tomorrow’s haat, at your door by 7 AM.",
+    "titleNext": "The next haat, at your door by 7 AM.",
+    "lede": "Seasonal fruit, vegetables, milk and staples, picked at dawn from the mandi and the farms we know by name.",
+    "countdown": "Order in <hl>{{hours}} h {{minutes}} min</hl> for {{day}} morning",
+    "cutoffPassed": "Tonight’s cut-off has passed: ordering for {{day}}",
+    "inBasketTomorrow": "In tomorrow’s basket",
+    "inBasketNext": "In the next basket",
+    "reviewBasket": "Review tomorrow’s basket",
+    "fillBasket": "Fill tomorrow’s basket",
+    "howNight": "How the night works",
+    "inSeasonThis": "In season this {{month}}",
+    "monthBrings": "What {{month}} brings",
+    "seeAll": "See all {{count}} items",
+    "emptyMonth": "Nothing from our farms peaks in {{month}} yet. Check the month either side."
+  },
+  "season": {
+    "tablist": "Haat calendar: what each month brings",
+    "now": "In the haat now:",
+    "brings": "{{month}} brings:",
+    "andMore": "{{list}} and {{count}} more"
+  },
+  "categoryIndex": {
+    "title": "Everything for tomorrow’s kitchen",
+    "items_one": "{{count}} item",
+    "items_other": "{{count}} items"
+  },
+  "bestsellers": {
+    "title": "What Delhi orders most",
+    "scrollLeft": "Scroll bestsellers left",
+    "scrollRight": "Scroll bestsellers right"
+  },
+  "promotions": {
+    "label": "This week’s offers",
+    "boxTitle": "One box of the week’s best fruit, every Sunday.",
+    "boxBody": "About 5 kg for a family of four, chosen at Azadpur every Saturday night from whatever is at its peak that week.",
+    "perks": ["Skip or pause any week", "Swap fruit you don’t eat", "Never more than the MRP"],
+    "inBasket": "In your basket: view",
+    "addBox": "Add this week’s box",
+    "boxAlt": "A basket of mixed fruit",
+    "greensTitle": "Winter greens are in. Palak, gajar, methi, sarson.",
+    "shopVeg": "Shop vegetables"
+  },
+  "overnight": {
+    "title": "While you sleep, the haat gets to work.",
+    "body": "Nothing sits in a warehouse for days. What you order tonight is bought, graded and packed in the eight hours before you wake.",
+    "am": "AM",
+    "pm": "PM",
+    "steps": [
+      { "title": "Your order closes", "body": "Change, add or skip anything until the cut-off." },
+      { "title": "Picked at the mandi", "body": "Our buyers choose at Azadpur and from farm partners, by hand." },
+      { "title": "Graded and packed", "body": "Sorted by size and ripeness, weighed, packed in paper." },
+      { "title": "Into the cold van", "body": "Dairy and greens ride at 4°C; fruit rides cool and shaded." },
+      { "title": "At your door", "body": "Before the first chai. No one rings the bell unless you ask." }
+    ]
+  },
+  "recommended": {
+    "withBasket": "Goes well with your basket",
+    "firstOrder": "Picked for your first order"
+  },
+  "testimonials": {
+    "title": "Notes from the neighbourhood",
+    "more": "More customer notes",
+    "items": [
+      {
+        "quote": "The Kinnaur apples taste like the ones my nani used to bring back from Shimla. I stopped going to the sabzi mandi on Sundays.",
+        "name": "Ritika Malhotra",
+        "place": "Sector 56, Gurugram",
+        "since": "Ordering since 2024"
+      },
+      {
+        "quote": "Milk and palak arrive before my son’s school bus. Twice they replaced a soft pomegranate without me even sending a photo.",
+        "name": "Arvind Iyer",
+        "place": "Vasant Kunj, New Delhi",
+        "since": "Weekly fruit box"
+      },
+      {
+        "quote": "What I like is knowing where it comes from. Nagpur oranges in November, Nashik grapes in February. It feels like a real haat.",
+        "name": "Farah Siddiqui",
+        "place": "Sector 50, Noida",
+        "since": "Ordering since 2025"
+      },
+      {
+        "quote": "Prices are honest. I compared the atta and dal for a month and stayed for the sourdough.",
+        "name": "Harpreet Sandhu",
+        "place": "Rajouri Garden, West Delhi",
+        "since": "Monthly staples"
+      }
+    ]
+  },
+  "promise": {
+    "title": "The MeriHaat promise",
+    "items": [
+      { "title": "Not right? Replaced, no questions.", "body": "Tell us by noon and we replace it tomorrow or refund it, whichever you prefer." },
+      { "title": "Priced by weight, shown before you pay.", "body": "Per kg and per piece, every day, with the MRP beside it." },
+      { "title": "Free delivery above {{free}}.", "body": "Below that, a flat {{fee}}. No surge, no rain fee, no packing charge." },
+      { "title": "Paper bags and returnable crates.", "body": "Leave yesterday’s crate outside and we take it back." }
+    ]
+  },
+  "footer": {
+    "letterTitle": "The season letter",
+    "letterBody": "One short email each Friday: what is arriving at the haat, what is ending, and a recipe for it.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "subscribe": "Subscribe",
+    "emailError": "That email doesn’t look right. Check for a missing @ or dot.",
+    "emailDone": "Subscribed. Your first letter arrives Friday morning.",
+    "shop": "Shop",
+    "deliverTo": "We deliver to",
+    "help": "Help",
+    "howDelivery": "How delivery works",
+    "hours": "7 AM – 11 PM, every day",
+    "copyright": "© {{year}} MeriHaat Fresh Pvt. Ltd. · Prices include GST.",
+    "notRight": "Not right? Tell us by noon for a free replacement the next morning."
+  },
+  "shop": {
+    "whole": "The whole haat",
+    "results_one": "{{count}} item",
+    "results_other": "{{count}} items",
+    "forQuery": "for “<q>{{query}}</q>”",
+    "filters": "Filters",
+    "filterLabel": "Filter by name or origin",
+    "filterPlaceholder": "Name or origin…",
+    "clearSearch": "Clear search",
+    "aisles": "Aisles",
+    "everything": "Everything",
+    "seasonOnly": "Only what’s in season",
+    "sort": "Sort",
+    "sorts": {
+      "popular": "Popular",
+      "season": "In season first",
+      "price-asc": "Price: low to high",
+      "price-desc": "Price: high to low",
+      "discount": "Biggest discount"
+    },
+    "products": "Products",
+    "emptyQuery": "Nothing in this aisle matches “{{query}}”.",
+    "emptyFilters": "Nothing in this aisle right now.",
+    "emptyHint": "Try a shorter word, a familiar name like “seb” or “palak”, or look across every aisle.",
+    "searchEvery": "Search every aisle"
+  },
+  "product": {
+    "off": "{{pct}}% off",
+    "stampLine1": "In",
+    "stampLine2": "basket",
+    "packSize": "Pack size for {{name}}",
+    "mrp": "MRP {{amount}}",
+    "backIn": "Back in {{month}}",
+    "add": "Add",
+    "addAria": "Add {{label}} to basket"
+  },
+  "quantity": {
+    "group": "Quantity of {{label}}",
+    "remove": "Remove {{label}}",
+    "less": "One less {{label}}",
+    "more": "One more {{label}}"
+  },
+  "units": {
+    "pieces_one": "{{count}} pc",
+    "pieces_other": "{{count}} pcs",
+    "box": "1 box · ~5 kg"
+  },
+  "cart": {
+    "title": "Your basket",
+    "arrives": "Arrives <hl>{{day}}</hl> · {{city}}",
+    "close": "Close basket",
+    "emptyTitle": "Your basket is empty.",
+    "emptyBody": "Add a few things tonight and they reach you by 7 AM tomorrow.",
+    "startWith": "Start with these",
+    "addAria": "Add {{name}} to basket",
+    "browse": "Browse the whole haat",
+    "booked": "Booked",
+    "doneTitle": "Done. Your haat is booked.",
+    "doneBody_one": "{{count}} item, {{amount}}, arriving {{day}} between {{slot}} to {{city}}.",
+    "doneBody_other": "{{count}} items, {{amount}}, arriving {{day}} between {{slot}} to {{city}}.",
+    "orderNumber": "Order number <b>{{id}}</b>",
+    "demo": "This is a demo storefront: no payment was taken.",
+    "keepBrowsing": "Keep browsing",
+    "addMore": "Add <hl>{{amount}}</hl> more for free delivery",
+    "freeUnlocked": "Free delivery unlocked.",
+    "remove": "Remove {{name}} from basket",
+    "slotLegend": "Delivery slot, {{day}}",
+    "items": "Items",
+    "savings": "You save on MRP",
+    "delivery": "Delivery",
+    "free": "Free",
+    "toPay": "To pay",
+    "book": "Book for {{day}}",
+    "payNote": "Pay on delivery or by UPI at your door."
+  },
+  "slots": {
+    "6-7": "6–7 AM",
+    "7-8": "7–8 AM",
+    "8-9": "8–9 AM"
+  },
+  "categories": {
+    "fruits": "Fruits",
+    "vegetables": "Vegetables",
+    "exotic": "Exotic & Imported",
+    "dairy": "Dairy & Eggs",
+    "staples": "Atta, Rice & Dal",
+    "pantry": "Oils, Spices & Bakery"
+  },
+  "products": {
+    "fruit-box": { "name": "Weekly Seasonal Fruit Box", "short": "Fruit box", "origin": "Chosen at Azadpur each week", "note": "About 5 kg of the week’s best fruit for a family of four." },
+    "kinnaur-apple": { "name": "Kinnaur Royal Apple", "short": "Apple", "origin": "Kinnaur, Himachal", "note": "Crisp and honey-sweet, grown above 2,500 m." },
+    "nagpur-orange": { "name": "Nagpur Orange", "short": "Orange", "origin": "Nagpur, Maharashtra", "note": "Loose-skinned, juicy, a winter breakfast staple." },
+    "bhagwa-anar": { "name": "Bhagwa Pomegranate", "short": "Pomegranate", "origin": "Nashik, Maharashtra", "note": "Deep ruby arils, soft seeds, sorted by weight." },
+    "allahabad-guava": { "name": "Allahabadi Safeda Guava", "short": "Guava", "origin": "Prayagraj, UP", "note": "Fragrant white flesh, best with a pinch of kala namak." },
+    "elaichi-banana": { "name": "Elaichi Banana", "short": "Banana", "origin": "Jalgaon, Maharashtra", "note": "Small, thin-skinned and sweet. Sold by the dozen." },
+    "nashik-grapes": { "name": "Black Seedless Grapes", "short": "Grapes", "origin": "Nashik, Maharashtra", "note": "Sharad variety, firm and sweet." },
+    "mahabaleshwar-strawberry": { "name": "Mahabaleshwar Strawberry", "short": "Strawberry", "origin": "Mahabaleshwar, Maharashtra", "note": "The first winter punnets, picked ripe." },
+    "watermelon": { "name": "Kiran Watermelon", "short": "Watermelon", "origin": "Ballari, Karnataka", "note": "Seedless and crimson. One whole fruit, 2–3 kg." },
+    "pineapple": { "name": "Queen Pineapple", "short": "Pineapple", "origin": "Tripura", "note": "Golden and aromatic, peeled on request." },
+    "avocado": { "name": "Hass Avocado", "short": "Avocado", "origin": "Tanzania", "note": "Ready to eat in 1–2 days. Packed in pairs." },
+    "kiwi": { "name": "Zespri Green Kiwi", "short": "Kiwi", "origin": "New Zealand", "note": "Tangy, rich in vitamin C. 3 pieces." },
+    "blueberry": { "name": "Blueberries", "short": "Blueberries", "origin": "Peru", "note": "Plump and dusty-blue, 125 g punnet." },
+    "babugosha": { "name": "Babugosha Pear", "short": "Pear", "origin": "Shimla, Himachal", "note": "Buttery and soft, the hill pear Delhi grew up on." },
+    "alphonso": { "name": "Ratnagiri Alphonso", "short": "Alphonso", "origin": "Ratnagiri, Maharashtra", "note": "Naturally ripened, GI-tagged. Dozen box." },
+    "palak": { "name": "Desi Palak", "short": "Palak", "origin": "Sonipat, Haryana", "note": "Tender winter spinach, washed and bunched." },
+    "red-carrot": { "name": "Delhi Red Carrot", "short": "Carrot", "origin": "Panipat, Haryana", "note": "The gajar-ka-halwa carrot. Sweet, deep red." },
+    "desi-tomato": { "name": "Desi Tomato", "short": "Tomato", "origin": "Narayangaon, Maharashtra", "note": "Tangy, thin-skinned, for everyday tadka." },
+    "potato": { "name": "Agra Potato", "short": "Potato", "origin": "Agra, UP", "note": "Low-moisture chipsona, fries up golden." },
+    "onion": { "name": "Nashik Red Onion", "short": "Onion", "origin": "Lasalgaon, Maharashtra", "note": "Pungent, dry-skinned, keeps for weeks." },
+    "kheera": { "name": "Desi Kheera", "short": "Kheera", "origin": "Sonipat, Haryana", "note": "Crunchy, mild, for raita and salads." },
+    "broccoli": { "name": "Ooty Broccoli", "short": "Broccoli", "origin": "Ooty, Tamil Nadu", "note": "Tight, dark-green florets. About 300 g." },
+    "cabbage": { "name": "Green Cabbage", "short": "Cabbage", "origin": "Solan, Himachal", "note": "Firm heads, sweet when stir-fried." },
+    "a2-milk": { "name": "A2 Desi Cow Milk", "short": "Milk", "origin": "Sahiwal herd, Haryana", "note": "Unhomogenised, chilled within an hour of milking." },
+    "dahi": { "name": "Set Dahi", "short": "Dahi", "origin": "Made from A2 milk", "note": "Thick, mildly sour, set in small batches." },
+    "eggs": { "name": "Free-Range Brown Eggs", "short": "Eggs", "origin": "Farm partner, Panchkula", "note": "Hens raised outdoors, no antibiotics." },
+    "sharbati-atta": { "name": "MP Sharbati Atta", "short": "Atta", "origin": "Sehore, Madhya Pradesh", "note": "Chakki-ground weekly. Soft, sweet rotis." },
+    "basmati": { "name": "Aged Dehradun Basmati", "short": "Basmati", "origin": "Dehradun, Uttarakhand", "note": "Aged 18 months. Long grain, deep aroma." },
+    "kabuli-chana": { "name": "Kabuli Chana", "short": "Chana", "origin": "Vidisha, Madhya Pradesh", "note": "Large, even-sized, unpolished." },
+    "mustard-oil": { "name": "Kachi Ghani Mustard Oil", "short": "Mustard oil", "origin": "Bharatpur, Rajasthan", "note": "Wood-pressed, pungent and golden. 1 L glass bottle." },
+    "whole-spices": { "name": "Garam Masala, Whole", "short": "Garam masala", "origin": "Kerala & Rajasthan", "note": "Cardamom, clove, cinnamon, bay. Grind fresh." },
+    "sourdough": { "name": "Multigrain Sourdough", "short": "Sourdough", "origin": "Baked overnight, Gurugram", "note": "Baked at 3 AM, at your door by 7." }
+  }
+}

@@ -1,0 +1,8 @@
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/.impeccable/mocks/decision/assigned.html
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/.impeccable/mocks/decision/model-pick.html
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/.impeccable/surfaces/src-app-jsx.md
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/DESIGN.md
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/PRODUCT.md
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/README.md
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/index.html
+/Users/tejasavsingh/Desktop/MYPROJECTS/meriHaat/public/favicon.svg
